@@ -143,10 +143,10 @@ class FullscreenFormActivity : AppCompatActivity() {
             ListItem(id = 5, name = "Apple")
     )
 
-    private val fruitsSegmented = listOf(SegmentedListItem(id = 1, name = "Banana"),
-            SegmentedListItem(id = 2, name = "Orange"),
-            SegmentedListItem(id = 3, name = "Avocado"),
-            SegmentedListItem(id = 4, name = "Apple")
+    private val fruitsSegmented = listOf(SegmentedListItem(id = 1, name = "Banana", drawableDirection = FormSegmentedElement.DrawableDirection.Left),
+            SegmentedListItem(id = 2, name = "Orange", drawableDirection = FormSegmentedElement.DrawableDirection.Left),
+            SegmentedListItem(id = 3, name = "Avocado", drawableDirection = FormSegmentedElement.DrawableDirection.Right),
+            SegmentedListItem(id = 4, name = "Apple", drawableDirection = FormSegmentedElement.DrawableDirection.Right)
     )
 
     private enum class Tag {
