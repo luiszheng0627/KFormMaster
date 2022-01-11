@@ -105,7 +105,7 @@ dokkaHtml.configure {
 ext {
     rendererRecyclerViewAdapterVersion = '3.0.1'
     tokenautocompleteVersion = '3.0.2'
-    constraintLayoutVersion = '2.0.4'
+    constraintLayoutVersion = '2.1.2'
     picassoVersion = '2.71828'
     inlineActivityResultVersion = '1.0.4'
     imagepickerVersion = '1.12.0'
